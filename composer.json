@@ -1,0 +1,22 @@
+{
+    "name": "kottman/laravel-quickbase",
+    "description": "QuickBase integration for Laravel",
+    "keywords": ["laravel", "quickbase"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kostas",
+            "email": "kwstaskottas@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kottman\\Qb\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
